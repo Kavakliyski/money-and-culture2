@@ -1,0 +1,75 @@
+.ArchiveComponentCards {
+    padding: 30px;
+    text-align: center;
+
+}
+
+
+.ArchiveComponentCard {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ArchiveComponentDiv {
+    padding: 200px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    border: 2px solid #162123;
+    border-radius: 15px;
+    justify-content: center;
+    justify-items: center;
+    background-color: #d0d9db;
+}
+
+
+.ArchiveComponentWrapper {
+    padding: 30px;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .ArchiveComponentCards {
+        /* padding: 15px; */
+    }
+
+    .ArchiveComponentCard {
+        /* padding: auto; */
+        width: 70%;
+    }
+
+    .ArchiveComponentDiv {
+        padding: 10px;
+        display: block;
+        padding: 0;
+        justify-items: space-between;
+    }
+
+    iframe {
+        height: 480px;
+        padding-top: 10px;
+    }
+
+    .ArchiveComponentWrapper {
+        padding: 10px;
+        justify-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px)and (max-width: 1700px) {
+    .ArchiveComponentCard {
+        width: auto;
+    }
+
+    iframe {
+        height: 480px;
+        padding-top: 10px;
+        width: 30vw !important;
+    }
+}

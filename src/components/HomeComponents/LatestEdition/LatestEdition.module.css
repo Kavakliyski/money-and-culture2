@@ -1,0 +1,50 @@
+.LatestEditionWrapper {
+    background-color: #d0d9db;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-transform: uppercase;
+    color: #162123;
+}
+
+
+.LatestEditionImage {
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.LatestEditionInfo {
+    padding: 10px;
+    margin: 10px;
+}
+
+.HeaderAndSubheader {
+    text-align: center;
+}
+
+.Description {
+    border: 3px solid #162123;
+    border-radius: 15px;
+    text-align: center;
+    color: #162123;
+    padding: 15px;
+}
+
+.ReadMoreButton {
+    text-align: center;
+    grid-column-start: 4;
+    padding-top: 20px;
+}
+
+
+@media all and (max-width: 880px) {
+    .LatestEditionWrapper {
+        display: block;
+    }
+
+    .LatestEditionImage {
+        padding: 0px;
+    }
+}
